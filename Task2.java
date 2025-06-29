@@ -4,7 +4,7 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("📚 Enter the number of subjects: ");
+        System.out.print(" Enter the number of subjects: ");
         int numberOfSubjects = input.nextInt();
 
         int[] marks = new int[numberOfSubjects];
@@ -21,7 +21,7 @@ public class Task2 {
                     totalMarks += mark;
                     break;
                 } else {
-                    System.out.println("❌ Invalid input! Please enter marks between 0 and 100.");
+                    System.out.println(" Invalid input! Please enter marks between 0 and 100.");
                 }
             }
         }
@@ -46,7 +46,7 @@ public class Task2 {
         }
 
         // Displaying result
-        System.out.println("\n📊 === Result Summary ===");
+        System.out.println("\n === Result Summary ===");
         System.out.println("Total Marks: " + totalMarks + "/" + (numberOfSubjects * 100));
         System.out.printf("Average Percentage: %.2f%%\n", averagePercentage);
         System.out.println("Grade: " + grade);
