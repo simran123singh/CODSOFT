@@ -35,7 +35,7 @@ class Task3 {
     }
 }
 
-// Class to represent the ATM machine
+
 public class ATM {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
